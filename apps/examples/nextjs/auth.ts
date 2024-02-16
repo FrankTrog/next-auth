@@ -63,9 +63,12 @@ import GitHub from "next-auth/providers/github"
 // import Zoho from "next-auth/providers/zoho"
 // import Zoom from "next-auth/providers/zoom"
 
+import { MongoDBAdapter } from "@auth/mongodb-adapter"
+import clientPromise from "@/components/mdbconn"
 import type { NextAuthConfig } from "next-auth"
 
 export const config = {
+  adapter: MongoDBAdapter(clientPromise),
   theme: {
     logo: "https://next-auth.js.org/img/logo/logo-sm.png",
   },

@@ -19,6 +19,7 @@
     "Thang Huu Vu <hi@thvu.dev>"
   ],
   "dependencies": {
+    "@auth/mongodb-adapter": "^2.4.0",
     "@radix-ui/react-avatar": "^1.0.3",
     "@radix-ui/react-collapsible": "^1.0.3",
     "@radix-ui/react-dropdown-menu": "^2.0.5",
@@ -27,6 +28,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.274.0",
+    "mongodb": "^6.3.0",
     "next": "latest",
     "next-auth": "beta",
     "react": "^18.2.0",
@@ -35,6 +37,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^18",
     "@types/react": "^18.2.23",
     "@types/react-dom": "^18.2.8",
