@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-test",
+  "version": "1.0.0",
+  "description": "Just testing MongoDB connections",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "test",
+    "connection"
+  ],
+  "author": "Frank J. Troglauer Jr.",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  }
+}
